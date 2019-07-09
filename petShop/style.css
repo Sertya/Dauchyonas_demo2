@@ -1,0 +1,128 @@
+.nav-wrapper {
+  padding: 0 20px;
+}
+.nav-wrapper .material-icons {
+  display: unset;
+}
+.input-field {
+  position: absolute;
+  width: 300px;
+  height: 50px;
+}
+.category {
+  margin: 10px 30px 0 30px;
+  padding: 10px 20px;
+  border-bottom: solid 1px #ffffff;
+  cursor: pointer;
+}
+.category:hover {
+  border-bottom: solid 1px #000000;
+}
+.btn {
+  background-color: #ffffff;
+  color: #000000;
+}
+.btn:hover{
+  background-color: #ffffff;
+}
+.card .card-content .card-title {
+  font-size: 18px;
+  white-space: nowrap;
+  overflow: hidden;
+}
+.card .card-content p {
+  margin-bottom: 8px;
+}
+.card .card-content .btn {
+  width: 40%;
+  background-color: #ffffff;
+  color: #000000;
+}
+.modal {
+  background-color: #ffffff;
+  max-height: 87%;
+}
+.shopping_basket_continue .btn, .shopping_basket_checkout .btn{
+  margin: 15px;
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.modal-content .shopping_basket_items, .history_list {
+  max-height: 302px;
+  overflow: auto;
+}
+/* shopping_basket_item */
+.modal .card {
+  box-shadow: none;
+  margin: 0;
+  border-bottom: solid 1px #e0e0e0;
+}
+/* .shopping_basket_item */
+.modal img {
+  width: 150px;
+  height: 150px;
+  padding: 10px;
+}
+.shopping_basket_item_price {
+  line-height: 32px;
+  font-size: 14px;
+}
+.shopping_basket_item_count {
+  padding: 0 7px;
+  line-height: 36px;
+}
+.modal .row.second {
+  padding-right: 77px;
+  margin-bottom: 10px;
+}
+.count .btn-flat {
+  padding: 0 9px;
+}
+.shopping_basket_close .btn-flat {
+  text-transform: lowercase;
+  margin-bottom: 15px;
+}
+.warning {
+  color: #EF9A9A;
+}
+.right.btn-flat.shopping_basket.modal-trigger {
+  height: auto;
+  display: flex
+}
+.shopping_basket_count {
+  line-height: 64px;
+}
+.is_empty{
+  color: #EF9A9A;
+  text-align: center;
+}
+.order_form .input-field {
+  position: unset;
+  width: 100%;
+}
+.sign_in {
+  font-size: 18px;
+  margin: 15px 20px
+}
+.start_img {
+  height: 100vh;
+  width: 100vw;
+  background: url(./img/pets.png) no-repeat center ;
+  background-size: cover;
+  
+}
+.date {
+  margin-top: 10px;
+}
+.history {
+  height: 64px;
+}
+.history_close {
+  margin-bottom: 20px;
+}
+.history_count, .history_price {
+  margin-left: 20px;
+  line-height: 32px;
+}
+

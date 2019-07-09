@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Pet Shop</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script type="module" src="./app/main.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+</head>
+<body>
+    <nav>
+      <div class="nav-wrapper white"> 
+        <div class="input-field">
+          <input id="search" type="search" required>
+          <label class="label-icon" for="search"><i class="material-icons black-text">search</i></label>
+          <i class="material-icons">close</i>
+        </div>
+        <a href="#" class="brand-logo center black-text"><i class="material-icons logo_icon">pets</i>Pet Shop</a>
+        <a class="right btn-flat shopping_basket modal-trigger" href="#modal1"><i class="material-icons ">shopping_basket</i><span class="shopping_basket_count">(0)</span></a>
+        <a class="right btn-flat modal-trigger history" href="#modal1"><i class="material-icons ">history</i></a>
+      </div>
+    </nav>
+    <section class="for_views">
+    </section>
+    <!-- Modal Structure for Shopping Basket-->
+    <div id="modal1" class="modal">
+    </div>
+</body>
+
+</html>
